@@ -14,6 +14,7 @@ sudo modprobe usbcore
 sudo modprobe option
 
 sleep 5
+#the following line works only for E3372 modems!
 sudo usb_modeswitch -v 12d1 -p 1f01 -M '55534243123456780000000000000011062000000101000100000000000000' &
 sleep 10
 
