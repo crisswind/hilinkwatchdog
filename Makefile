@@ -1,9 +1,9 @@
-CC = g++  -fexceptions
+CC = g++  
 OUTFILE = hilinkwatchdog
 OBJS = main.o 
 LIBS = -lpthread -lcurl
-FLAGS = -O2 -fexceptions
-CXXFLAGS = -O2 -fexceptions
+FLAGS = -O2 
+CXXFLAGS = -O2 
 
 all: $(OUTFILE)
 main.o: main.cpp 
