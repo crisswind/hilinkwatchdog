@@ -19,7 +19,7 @@ int status[] = {0,0,0};
 int fd1,rd;
 char bufor[128];
 std::string modem_;
-                         
+std::string test_modem;
 
 int tryb = 0; 	//1 -session
 
