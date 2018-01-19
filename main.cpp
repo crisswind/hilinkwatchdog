@@ -21,8 +21,7 @@ char bufor[128];
 std::string modem_;
 std::string test_modem;
 
-int tryb = 0; 	//1 -session
-
+int tryb = 0;
 
 std::string session_id;
 std::string token_id;
