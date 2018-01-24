@@ -49,4 +49,4 @@ Just add to your rc.local:
 
 screen -dmS watchdog /bin/start_watchdog.sh &  (or any other way to start the daemon in background)
 
-That's it.
+That's it!
